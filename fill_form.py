@@ -19,7 +19,7 @@ chromedriver_location = "chromedriver.exe"
 path = "user-data-dir=C:/Users/Jonathan/AppData/Local/Google/Chrome/User Data"
 opts = webdriver.ChromeOptions()
 opts.add_argument('--no-sandbox')
-opts.add_argument('--headless')
+#opts.add_argument('--headless')
 opts.add_argument(path)
 driver = webdriver.Chrome(options=opts)
 driver.get("https://daily-student.cmu.edu/")
